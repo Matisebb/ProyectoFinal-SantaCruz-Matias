@@ -1,0 +1,355 @@
+@import 'animate.css';
+
+
+*{
+	font-family: 'Poppins', sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+
+}
+
+body{
+	overflow-x: hidden;
+	background: $bodyColor;
+	
+}
+
+
+h1{
+	color: $tittleColor;
+	font-size: $tittleSize;
+}
+
+h2{
+	font-size: $subtittleSize;
+	color: $otrosColor;
+}
+
+article p{
+	font-size: $parrafSize;
+	line-height: 3.5rem;
+	color: $otrosColor;
+	text-decoration: none;
+}
+
+
+main a{
+	text-decoration: none;
+	color: $otrosColor;
+}
+
+form {
+	text-decoration: none;
+	color: $otrosColor;
+	font-size: $formSize;
+	display: inline-block;
+}
+
+
+h3{
+	font-size: $h3Size;
+	color: $otrosColor;
+}
+
+
+
+article h3{
+	font-size: $subtittleSize;
+}
+
+
+section p{
+	font-size: $parrafSize;
+	line-height: 2.3rem;
+}
+
+h4{
+	font-size: $h4Size;
+	color: $otrosColor;
+}
+
+
+/* BOTON DE MAIN */
+/* ANIMACION HOVER SOBRE BTN */
+.botonFlex{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.btnColor{
+	background-color: rgba(244, 74, 17, 0.9);
+
+}
+
+.button{
+	font-size: $parrafSize;
+}
+
+.btnanimation{
+	width: 10%;
+}
+
+.btnanimation:hover{
+	width: 13%;
+	transition: all 2s;
+	text-decoration: none;
+	color: $otrosColor;
+}
+
+.btnanimation2{
+	width: 100%;
+}
+
+.btnanimation2:hover{
+	width: 105%;
+	transition: all 2s;
+}
+
+
+
+footer div a{
+	font-size: $parrafSize;
+	text-decoration: none;
+	color: $otrosColor;
+}
+
+
+
+/* TEXT ALIGN */
+
+.textCenter{
+	text-align: center;
+}
+
+.textLeft{
+	text-align: left;
+}
+
+.textRight{
+	text-align: right;
+}
+
+.textJustify{
+	text-align: justify;
+}
+
+/* SIZE ICO REDES */
+.imgFooter{
+	width: 35px;
+}
+
+
+
+/* FORMULARIO */
+
+.sectionForm{
+	background: #181818;
+	color: white;
+	box-sizing: border-box;
+	padding:  1.5rem;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1170px;
+}
+
+.colorForm{
+	color: white;
+}
+
+.logo{
+	text-align: center;
+	font-size: 2rem;
+	color: white;
+
+}
+
+.logo span{
+	color: rgb(244, 74, 17);
+}
+
+
+.contact-wrapper{
+	box-shadow: 0 0 20px  0 rgba(255, 255, 255, 0.3);
+}
+
+.contact-wrapper > *{
+	padding: 1rem;
+}
+
+.contactForm{
+	background: #222222;
+	border: none;
+
+}
+
+.contactForm form{
+	margin: 0;
+	padding: 1rem;
+}
+
+.contactForm form label, .contactForm form input {
+	width: 100%;
+	padding: .7rem;
+	border: none;
+}
+
+.contactForm form textarea{
+	width: 100%;
+	padding: .7rem;
+	border: none;
+}
+
+.contactForm form button{
+	width: 100%;
+	padding: .7rem;
+	border: none;
+	background: rgb(244, 74, 17);
+	text-transform: uppercase;
+	padding: 1rem;
+
+}
+
+
+/* IFRAME SIZE */
+/* NO HAY FORMA DE CENTRAR, PROBÉ CON MX-AUTO, MARGIN 0 AUTO, D-BLOCK FLEX COLUMN CENTER"*/
+
+.responsive{
+	overflow:hidden;
+
+    padding-bottom:35%;
+
+    position:relative;
+
+    height:0;
+}
+
+.responsive iframe{
+	left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+}
+
+
+
+/* COLOR LIST SECCION SERVICIOS */
+.textList{
+	font-size: 1.9rem;
+	color: rgb(255, 74, 17);
+	font-weight: 500;
+	list-style: none;
+}
+
+
+/*BG DE ARTICLE SERVICIOS */
+.bg-div{
+	background: rgba(186, 186, 186, .05);
+}
+
+
+/* ALINEACION IMG SECCION SERVICIOS */
+.align{
+	text-align: center;
+}
+
+
+/* CURSOR POINTER FOOTER */
+.imgFooter:hover{
+	cursor: pointer;
+}
+
+
+/* COLOR TITULO FORM SECCION CONTACTO */
+
+.titulo{
+	text-align: center;
+	font-size: 2rem;
+	color: white;
+
+}
+
+.titulo span{
+	color: rgb(244, 74, 17);
+}
+
+
+/* BOTON DE MAS INFORMACION */
+.button{
+	font-size: 1.9rem;
+}
+
+
+
+/* SIZE PARRAFO FOOTER */
+.p{
+	font-size: 1.9rem;
+	line-height: 2.5rem;
+	text-decoration: none;
+	list-style: none;
+}
+
+.p1{
+	font-size: 2.5 rem;
+	line-height: 3rem;
+	text-decoration: none;
+	list-style: none;
+}
+
+
+/* PROPIEDADES BOTON MAS INFORMACION */
+
+.moreInfo{
+	text-decoration: none;
+	list-style: none;
+	color: rgb(2, 2, 2);
+}
+
+.moreInfocolor{
+	background: rgb#515151;
+}
+
+
+/*LINE HEIGHT PARRAFOS SECCION SERVICIOS */
+.line{
+	line-height: 3.2rem;
+}
+
+
+/* ANIMACIONES */
+
+.bg-linear-gradient{
+	background: rgb(182,182,182);
+	background: linear-gradient(150deg, rgba(182,182,182,1) 0%, rgba(199,199,199,1) 64%, rgba(236,68,16,1) 100%);
+}
+
+.transition:hover{
+	cursor: pointer;
+	border: black;
+	width: 110%;
+	transition: all 2s;
+	border-radius: 5px;
+}
+
+.aquiBoton{
+	width: 100%;
+}
+
+.aquiBoton:hover{
+	cursor: pointer;
+	background-color: rgba(255, 74, 17, 0.8);
+}
+
+.scaleFoot:hover{
+transform: scaleX(0.8);
+	}
